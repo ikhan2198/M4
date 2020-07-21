@@ -13,8 +13,8 @@ class MainClass extends PluginBase{
 
 	public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
 		switch($command->getName()){
-			case "example":
-				$sender->sendMessage("Hello " . $sender->getName() . "!");
+			case "m4":
+				$sender->sendMessage("M4 is a super cutie " . $sender->getName() . "!");
 
 				return true;
 			default:
