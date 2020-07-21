@@ -21,7 +21,19 @@ class Main extends PluginBase Implements Listener {
      $this->getserver()->getPluginManager()->registerEvents($this, $this);
 ] 
 
-  public funtion
+  public funtion onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
+   
+      switch($cmd->getName ()){
+        case "test":
+                 if($sender instanceof Player) {
+                   
+                   $sender->sendMessage
+        break
+      } 
+    
+    
+     return true;
+  }
     
     
 }
