@@ -3,4 +3,7 @@ name: M4
 version: 0.0.1
 main: ItsMythicalYT\M4\Main
 api: 3.14.2
-...
+
+commands:
+ m4:
+  description: "Use m4 command
